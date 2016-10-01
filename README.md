@@ -48,3 +48,20 @@ From the last line, we see there is nothing to commit. The README.md file has be
 
 Now I am going to alter the README.md file, and save it. I will have to add and commit this README.md file again 
 
+Using git log again, I can see that I have made two different commits with their messages included.
+
+			commit 152d2bb73a0384c191c9d43c1676ad8a26e76c66
+Author: Jordan Shoemaker <jrdn_shoemaker@yahoo.com>
+Date:   Sat Oct 1 13:13:04 2016 -0700
+
+    Commiting updated README.md file explaing how the git (status, log, add, commit) work
+
+commit a6a2909a92988138f84dd76f09725a4fe94c13b6
+Author: Jordan Shoemaker <jrdn_shoemaker@yahoo.com>
+Date:   Sat Oct 1 13:08:14 2016 -0700
+
+    Committing the README.md file
+
+
+
+
