@@ -46,7 +46,7 @@ Now, looking at the git staus we see....
 
 From the last line, we see there is nothing to commit. The README.md file has been commited. 
 
-Now I am going to alter the README.md file, and save it. I will have to add and commit this README.md file again 
+			Now I am going to alter the README.md file, and save it. I will have to add and commit this README.md file again 
 
 Using git log again, I can see that I have made two different commits with their messages included.
 
@@ -54,13 +54,22 @@ Using git log again, I can see that I have made two different commits with their
 Author: Jordan Shoemaker <jrdn_shoemaker@yahoo.com>
 Date:   Sat Oct 1 13:13:04 2016 -0700
 
-    Commiting updated README.md file explaing how the git (status, log, add, commit) work
+    		Commiting updated README.md file explaing how the git (status, log, add, commit) work
 
 commit a6a2909a92988138f84dd76f09725a4fe94c13b6
 Author: Jordan Shoemaker <jrdn_shoemaker@yahoo.com>
 Date:   Sat Oct 1 13:08:14 2016 -0700
 
-    Committing the README.md file
+    		Committing the README.md file
+
+
+Finally, I am going to push my remote repository to the git origin master, using this command
+
+			git push origin master
+
+
+This will push all my changes to the origin master
+			
 
 
 
